@@ -7,6 +7,9 @@
       <v-btn color="button" to="/about">
         {{ $t("navbar.aboutButtonText") }}
       </v-btn>
+      <v-btn color="button" to="/playground">
+        {{ $t("navbar.playgroundButtonText") }}
+      </v-btn>
     </div>
     <v-spacer />
     <div class="mr-4 mt-6">

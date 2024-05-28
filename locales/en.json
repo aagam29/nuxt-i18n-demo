@@ -5,12 +5,12 @@
     "playgroundButtonText": "PLAYGROUND"
   },
   "homePage": {
-    "titleText": "Home FR",
-    "description": "Hey there!! welcome to our website. FR"
+    "titleText": "Home",
+    "description": "Hey there!! welcome to our website."
   },
   "aboutPage": {
-    "titleText": "About FR",
-    "description": "About page.... FR"
+    "titleText": "About",
+    "description": "About page...."
   },
   "playgroundPage": {
     "titleText": "Playground",

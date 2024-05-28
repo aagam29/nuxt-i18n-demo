@@ -1,14 +1,29 @@
 {
   "navbar": {
-    "homeButtonText": "HOME ES",
-    "aboutButtonText": "ABOUT ES"
+    "homeButtonText": "HOME",
+    "aboutButtonText": "ABOUT",
+    "playgroundButtonText": "PLAYGROUND"
   },
   "homePage": {
-    "titleText": "Hey there!! welcome to our ES website.",
-    "description": "Some description.... ES"
+    "titleText": "Home ES",
+    "description": "Hey there!! welcome to our website. ES"
   },
   "aboutPage": {
-    "titleText": "This is the About page. ES",
+    "titleText": "About ES",
     "description": "About page.... ES"
+  },
+  "playgroundPage": {
+    "titleText": "Playground",
+    "pluralizationTitle": "Pluralization",
+    "apple": "no apple | one apple | {count} apples.",
+    "translationTitle": "Translation",
+    "welcome": "welcome",
+    "interpolationTitle": "Interpolation",
+    "interpolation": {
+      "helloWithCustomMsg": "Hello World, {msg}",
+      "hobby": "My favourite hobby is {0}.",
+      "email": "You can reach out to me at {account}{'@'}{domain}"
+    },
+    "dateTimeTranslationTitle": "Date Time Translation"
   }
 }
