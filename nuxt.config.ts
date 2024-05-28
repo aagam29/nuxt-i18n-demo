@@ -13,6 +13,7 @@ export default defineNuxtConfig({
       });
     },
     "@nuxt/eslint",
+    "@nuxtjs/i18n",
   ],
   vite: {
     vue: {
@@ -23,6 +24,30 @@ export default defineNuxtConfig({
   },
   eslint: {
     // options here
+  },
+  i18n: {
+    vueI18n: "./i18n.config.ts",
+    lazy: true,
+    langDir: "locales",
+    locales: [
+      {
+        code: "en",
+        file: "en-US.json",
+        name: "English",
+      },
+      {
+        code: "es",
+        file: "es.json",
+        name: "Spanish",
+      },
+      {
+        code: "fr",
+        file: "fr.json",
+        name: "French",
+      },
+    ],
+    defaultLocale: "en",
+    strategy: "no_prefix",
   },
   devtools: { enabled: true },
 });

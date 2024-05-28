@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "homeButtonText": "HOME ES",
+    "aboutButtonText": "ABOUT ES"
+  },
+  "homePage": {
+    "titleText": "Hey there!! welcome to our ES website.",
+    "description": "Some description.... ES"
+  },
+  "aboutPage": {
+    "titleText": "This is the About page. ES",
+    "description": "About page.... ES"
+  }
+}
