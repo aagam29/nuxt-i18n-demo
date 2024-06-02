@@ -1,29 +1,40 @@
 {
-  "navbar": {
-    "homeButtonText": "HOME",
-    "aboutButtonText": "ABOUT",
-    "playgroundButtonText": "PLAYGROUND"
-  },
   "homePage": {
-    "titleText": "Home",
-    "description": "Hey there!! welcome to our website."
+    "title": "Home",
+    "description": "This is the home page description."
   },
   "aboutPage": {
-    "titleText": "About",
-    "description": "About page...."
+    "title": "About",
+    "description": "This is the about page description."
+  },
+  "selectLocale": {
+    "label": "Select Locale"
+  },
+  "navbar": {
+    "homeButton": "Home",
+    "aboutButton": "About",
+    "playgroundButton": "Playground"
   },
   "playgroundPage": {
-    "titleText": "Playground",
-    "pluralizationTitle": "Pluralization",
-    "apple": "no apple | one apple | {count} apples.",
-    "translationTitle": "Translation",
-    "welcome": "welcome",
-    "interpolationTitle": "Interpolation",
-    "interpolation": {
-      "helloWithCustomMsg": "Hello World, {msg}",
-      "hobby": "My favourite hobby is {0}.",
-      "email": "You can reach out to me at {account}{'@'}{domain}"
+    "title": "Playground",
+    "translation": {
+      "title": "Translation",
+      "helloWorld": "Hello World!",
+      "translateButton": "Translate"
     },
-    "dateTimeTranslationTitle": "Date Time Translation"
+    "pluralization": {
+      "title": "Pluralization",
+      "apple": "No Apple | One Apple | {count} Apples",
+      "addApple": "Add"
+    },
+    "interpolation": {
+      "title": "Interpolation",
+      "sayHello": "Hello, {name}",
+      "hobby": "My favourite hobby is {0}.",
+      "email": "You can reach out to me at {account}{'@'}{domain}.com"
+    },
+    "dateTime": {
+      "title": "Date Time Translation"
+    }
   }
 }

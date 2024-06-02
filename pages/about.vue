@@ -2,7 +2,7 @@
   <div>
     <v-card color="cardBackground">
       <v-card-title class="text-overline">
-        {{ $t("aboutPage.titleText") }}
+        {{ $t("aboutPage.title") }}
       </v-card-title>
       <v-card-text>
         {{ $t("aboutPage.description") }}

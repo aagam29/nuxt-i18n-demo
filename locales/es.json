@@ -1,29 +1,40 @@
 {
-  "navbar": {
-    "homeButtonText": "HOME",
-    "aboutButtonText": "ABOUT",
-    "playgroundButtonText": "PLAYGROUND"
-  },
   "homePage": {
-    "titleText": "Home ES",
-    "description": "Hey there!! welcome to our website. ES"
+    "title": "Bienvenido a la página de inicio",
+    "description": "Esta es la descripción de la página de inicio."
   },
   "aboutPage": {
-    "titleText": "About ES",
-    "description": "About page.... ES"
+    "title": "Sobre nosotros",
+    "description": "Esta es la descripción de la página sobre nosotros."
+  },
+  "selectLocale": {
+    "label": "Seleccione el idioma"
+  },
+  "navbar": {
+    "homeButton": "Inicio",
+    "aboutButton": "Acerca de",
+    "playgroundButton": "Área de juegos"
   },
   "playgroundPage": {
-    "titleText": "Playground",
-    "pluralizationTitle": "Pluralization",
-    "apple": "no apple | one apple | {count} apples.",
-    "translationTitle": "Translation",
-    "welcome": "welcome",
-    "interpolationTitle": "Interpolation",
-    "interpolation": {
-      "helloWithCustomMsg": "Hello World, {msg}",
-      "hobby": "My favourite hobby is {0}.",
-      "email": "You can reach out to me at {account}{'@'}{domain}"
+    "title": "Área de juegos",
+    "translation": {
+      "title": "Traducción",
+      "helloWorld": "¡Hola Mundo!",
+      "translateButton": "Traducir"
     },
-    "dateTimeTranslationTitle": "Date Time Translation"
+    "pluralization": {
+      "title": "Pluralización",
+      "apple": "No hay manzanas | Una manzana | {count} manzanas",
+      "addApple": "Agregar"
+    },
+    "interpolation": {
+      "title": "Interpolación",
+      "sayHello": "Hola, {name}",
+      "hobby": "Mi pasatiempo favorito es {0}.",
+      "email": "Puedes contactarme en {account}{'@'}{domain}.com"
+    },
+    "dateTime": {
+      "title": "Traducción de Fecha y Hora"
+    }
   }
 }

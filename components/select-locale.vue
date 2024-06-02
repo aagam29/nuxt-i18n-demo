@@ -9,7 +9,7 @@ const language = computed({
 
 <template>
   <v-select
-    label="Select Locale"
+    :label="$t('selectLocale.label')"
     variant="outlined"
     color="primary"
     density="compact"    

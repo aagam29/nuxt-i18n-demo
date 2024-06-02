@@ -1,14 +1,14 @@
 <template>
-  <v-app-bar app :elevation="2">
+  <v-app-bar app :elevation="2" class="px-2">
     <div>
       <v-btn color="button" to="/">
-        {{ $t("navbar.homeButtonText") }}
+        {{ $t("navbar.homeButton") }}
       </v-btn>
       <v-btn color="button" to="/about">
-        {{ $t("navbar.aboutButtonText") }}
+        {{ $t("navbar.aboutButton") }}
       </v-btn>
       <v-btn color="button" to="/playground">
-        {{ $t("navbar.playgroundButtonText") }}
+        {{ $t("navbar.playgroundButton") }}
       </v-btn>
     </div>
     <v-spacer />
