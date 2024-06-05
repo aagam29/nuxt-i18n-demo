@@ -13,7 +13,8 @@
   "navbar": {
     "homeButton": "Inicio",
     "aboutButton": "Acerca de",
-    "playgroundButton": "Área de juegos"
+    "playgroundButton": "Área de juegos",
+    "blogButton": "Blog"
   },
   "playgroundPage": {
     "title": "Área de juegos",

@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     },
     "@nuxt/eslint",
     "@nuxtjs/i18n",
+    "nuxt-graphql-client"
   ],
   vite: {
     vue: {
@@ -48,6 +49,11 @@ export default defineNuxtConfig({
     ],
     defaultLocale: "en",
     strategy: "no_prefix",
+  },
+  runtimeConfig: {
+    public: {
+      GQL_HOST: 'YOUR_GQL_HOST_URL_HERE_OR_IN_.env'
+    }
   },
   devtools: { enabled: true },
 });

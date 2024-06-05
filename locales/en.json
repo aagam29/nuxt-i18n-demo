@@ -13,7 +13,8 @@
   "navbar": {
     "homeButton": "Home",
     "aboutButton": "About",
-    "playgroundButton": "Playground"
+    "playgroundButton": "Playground",
+    "blogButton": "Blog"
   },
   "playgroundPage": {
     "title": "Playground",
